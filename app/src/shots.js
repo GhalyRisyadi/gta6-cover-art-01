@@ -1,0 +1,1 @@
+export function shotOptions(){const q=new URLSearchParams(location.search);return{shot:q.get('shot'),photo:q.get('photo')||'pier',title:q.get('caption')||q.get('title')||'SUNSET HEIST',layout:q.get('layout')||'strips',grade:q.get('grade')||'sunset',size:q.get('size')||'1080'}}
